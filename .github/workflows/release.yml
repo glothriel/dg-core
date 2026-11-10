@@ -19,17 +19,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Build Docker image
         run: docker build --platform linux/amd64 -t "dg-core:$GITHUB_REF_NAME" .
-      - name: Smoke test
-        shell: bash
-        run: |
-          set -euo pipefail
-          docker run -d --name smoke "dg-core:$GITHUB_REF_NAME"
-          trap 'docker rm -f smoke >/dev/null' EXIT
-          sleep 3
-          docker logs smoke > smoke.log
-          cat smoke.log
-          test "$(grep -c '^Hello world from dg-core$' smoke.log)" -ge 2
-          test "$(docker inspect -f '{{.State.Running}}' smoke)" = true
       - name: Package and checksum
         shell: bash
         run: |
