@@ -7,7 +7,7 @@ import (
 
 func main() {
 	for {
-		fmt.Println("Hello world from dg-core, again!")
+		fmt.Println("Hello world from dg-core, again!")[]===
 		time.Sleep(time.Second)
 	}
 }
