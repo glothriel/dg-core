@@ -1,8 +1,5 @@
 {
-  "version": "0.2.0",
-  "instance": "2aa3f7ba-de73-11f1-95ba-f265c5c1e378",
-  "task": "e4e9187f-de74-11f1-95ba-f265c5c1e378",
-  "tag": "v0.2.0",
-  "sourceRc": "v0.2.0-rc.2",
-  "sourceSha": "fc45256dc045a06896593bc9dd668fb7d9a7592b"
+  "version": "0.8.0",
+  "instance": "87a73b46-ded5-11f1-9f5e-ae2e6755a954",
+  "baseSha": "c8e8982a78c09e083cd776fdc1d4e0adf47a4533"
 }
