@@ -1,12 +1,3 @@
-## Fajny release
-- fajny feaure
-- fajny feature 2
-- maly feature 3
+Release candidate for 0.4.1.
 
-Final build from approved `v0.4.0-rc.2` application code.
-
-Blog: https://foo.bar.baz
-
-Migration coverage: Automatyczna migracja - żadna akcja nie jest wymagana
-
-Compatibility notes: Wszystko kompatybilne
+Commit notes are generated automatically after successful build verification.
