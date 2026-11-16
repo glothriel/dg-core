@@ -2,6 +2,20 @@
   "version": "0.10.0",
   "instance": "2802d210-e19b-11f1-9841-cab1cc76ae7f",
   "baseSha": "e1434491731ff44b1943d0c7f3853e08ae00c6ff",
-  "task": "615a956d-e19c-11f1-9841-cab1cc76ae7f",
-  "tag": "v0.10.0-rc.1"
+  "task": "0b251d36-e19e-11f1-9841-cab1cc76ae7f",
+  "tag": "v0.10.0",
+  "projectId": "core",
+  "repository": "glothriel/dg-core",
+  "catalogSha256": "25587c198b381ecb8d71f5f69bcbcb45d78d95250afbf2c4aefeff6339da9253",
+  "sourceRc": "v0.10.0-rc.1",
+  "payloads": [
+    {
+      "payloadId": "docker-linux-amd64",
+      "sourceName": "dg-core-v0.10.0-rc.1-docker-linux-amd64.tar.gz",
+      "name": "dg-core-v0.10.0-docker-linux-amd64.tar.gz",
+      "sha256": "abb6748619572c43c6d8532b12b09b254ad86f9d0e6bae688470d34c2cc951c8",
+      "size": 722987
+    }
+  ],
+  "sourceSha": "bcda8eabd9eb6cf5a59629c5209520ec26416c7f"
 }
